@@ -40,3 +40,55 @@ print("Hello World!")
 
 ```
 
+![1](https://github.com/user-attachments/assets/48ed34ae-cd31-4acf-86ff-0fd4c6f4808b)
+
+## Задание 2
+### Написать программу Hello World на C# с запуском на Unity.
+- Устанавливаем Unity и Visual Studio Code.
+- Создаём скрипт с необходимым кодом.
+
+```py
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HelloWorld : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log("Hello, World");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+```
+
+![2](https://github.com/user-attachments/assets/74d4bde9-92ca-4e77-875a-540ece742448)
+
+##Задание 3
+Оформить отчет в виде документации на github (markdown-разметка).
+Копируем макет.
+Пишем этот отчёт.
+
+## Выводы
+В ходе данной работы было успешно установленно всё необходимое программное обеспечение, которое пригодится для создания интеллектуальных моделей на Python.
+
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+
+## Powered by
+
+**BigDigital Team: Denisov | Fadeev | Panov**
